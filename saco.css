@@ -1,0 +1,8 @@
+
+/****** Button Display within DIV *******/
+#interior ul {display: flex;flex-wrap: wrap;justify-content: space-between;line-height: 1.4em;padding-left: 0px;}
+#interior ul:before {content: ""; width: 100%; display: block;}
+#interior ul:after {content: ""; width: 100%; display: inline-block;}
+#interior ul li {display: inline-block; margin:6px; position:relative; background: #003764; border-radius: 4px; white-space: nowrap; padding: 8px; flex-grow: 1;text-align: center;}
+#interior ul li:before{display:none;}
+#interior ul li a {color: #fff !important;font-size: 16px;text-decoration: none !important;}
